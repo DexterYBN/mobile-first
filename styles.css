@@ -1,0 +1,235 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-1 img {
+    padding: 32px 0 0 20px;
+    margin: 0;
+}
+
+.logo {
+    display: none;
+}
+
+.logo-fullstats {
+    display: none;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+
+
+.reg-text {
+    max-width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+
+.reg-text h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.reg-text p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.3em;
+    margin-left: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #919EAB;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form-group input {
+    color: #919EAB;
+    font-size: 16px;
+    max-width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    width: 335px;
+    height: 48px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+}
+
+.form p {
+    color: #919EAB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #3258FB;
+    width: 335px;
+    box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    max-width: 100%;
+    height: 48px;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.form .account {
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.form .account a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3258FB;
+}
+
+.account-desk {
+    display: none;
+}
+
+@media only screen and (min-width: 1150px) {
+    .container-1 {
+        display: flex;
+        width: 364px;
+        height: 992px;
+        background: #FFFFFF;
+        box-shadow: 0px 16px 32px -4px rgba(145, 158, 171, 0.12);
+        border-radius: 16px;
+    }
+
+    .leftside {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mob-logo {
+        display: none;
+    }
+
+    .logo-fullstats {
+        display: block;
+        max-width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 30px;
+        color: #333333;
+        text-align: justify
+    }
+
+    .logo {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+
+    .woman {
+        margin-bottom: 359px;
+    }
+
+    body {
+        display: flex;
+    }
+
+    .container-2 {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .form-group input {
+        color: #919EAB;
+        font-size: 16px;
+        max-width: 100%;
+        border: 1px solid lightgrey;
+        border-radius: 8px;
+        width: 335px;
+        height: 48px;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .form p {
+        padding: 0 250px;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .account-desk {
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #333333;
+        margin-top: 40px;
+    }
+
+    .account-desk a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #3258FB;
+    }
+
+}
